@@ -1,0 +1,311 @@
+i:hover {
+    color: #51bbb2;
+}
+i {
+    font-size: 24px;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 0px;
+}
+h2 {
+    font-size: 45px;
+    text-align: center
+}
+.conteiner {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 115px;
+    background-color: black;
+}
+.dfolio {
+    font-size: 10px;
+    
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;   
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+li {
+    float: left;
+    margin: 10px;
+}
+h3 {
+    font-size: 28px;
+    text-align: center;
+}
+.morgan{
+    height: 460px;
+}
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(203, 204, 206);
+    width: 80%;
+    padding: 30px;
+    margin-left: 120px;
+}
+.identity {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    list-style-type: none;
+
+}
+.foto {
+    display: flex;
+    height: 200px;
+    border-radius: 25%; 
+}
+.about {
+    font-size: 22px;
+    width: 50%;
+}
+h4 {
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 204, 206);
+    border-radius: 5%;
+    margin: 10px;
+    text-align: center;
+}
+.fa-briefcase {
+    font-size: 50px;
+}
+.fa-list-check {
+    font-size: 50px;
+}
+.fa-list {
+    font-size: 50px;
+}
+.fa-binoculars{
+    font-size: 50px;
+}
+.fa-sun {
+    font-size: 50px;
+}
+.fa-calendar-week {
+    font-size: 50px;
+}
+.con1 {
+    display: flex;
+    justify-content: space-around;   
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(63, 87, 226);
+}
+.con1box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.fa-clock {
+    font-size: 50px;
+}
+h5 {
+    font-size: 15px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfoliocard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 204, 206);
+    margin: 10px;
+    text-align: center;
+}
+.card-pic {
+    display: flex;
+    width: 400px;
+    height: 262px;    
+}
+.card-plus {
+    display: flex;
+    flex-direction: row;
+}
+.fa-plus {
+    padding: 10px;
+    font-size: 30px;
+}
+.con2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 435px;
+    background-color: rgb(63, 87, 226);
+    margin-top: 20px;
+}
+.con2-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+
+}
+.blogcard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(203, 204, 206);
+}
+.communication{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(203, 204, 206);
+    width: 80%;
+    padding: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.com-info {
+    font-size: 18px;
+    width: 400px;
+    padding-left: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+form {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+}
+form button:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width: 760px) {
+    .con {
+        display: flex;
+        flex-direction: column;
+
+        margin-left: auto;
+    }
+    .identity {
+        font-size: 18px;
+    }
+    .person {
+        display: flex;
+        flex-direction: column;
+    }
+    .about {
+        font-size: 18px;
+    }
+    .communication {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+    }
+    .menu {
+        display: none;
+    }
+    .con1 {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        width: auto;
+        margin-left: auto;
+    }
+    .com-info {
+        width: auto;
+        margin-left: auto;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .conteiner {
+        width: auto;
+    }
+}
