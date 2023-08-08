@@ -1,0 +1,82 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 24, 24);
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 37, 37);
+    width: 5%;
+}
+i {
+    font-size: 30px;
+    margin: 10px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 24, 24);
+    color:gray;
+    width: 20%;
+}
+h5 {
+    border-style: solid;
+    margin: 5px;
+    padding: 5PX;
+    font-size: 18px
+}
+.plus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.fa-plus {
+    font-size: 20px;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.fa-person {
+    font-size: 20px;
+}
+.fa-4 {
+    font-size: 15px;
+    padding-left: 100px;
+}
+.pelican-room {
+    width: 55%;
+    background-color: rgb(41, 37, 37);
+    color:white
+}
+.circle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.g-info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 37, 37);
+    color: white;
+    width: 20%;
+}
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-angle-down {
+    font-size: 20px;
+}
+.fa-chevron-right {
+    font-size: 20px;
+}
