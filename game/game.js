@@ -65,6 +65,9 @@ function winStatus() {
     }
     if (pcCount === 3){
         win.innerHTML =  "ÜZGÜNÜM KAYBETTİN :(" ;
+        r.disabled = true;
+        s.disabled = true;
+        p.disabled = true; 
              
     }
 }
