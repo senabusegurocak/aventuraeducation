@@ -4,7 +4,20 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 100vw;
 }
 body {
     margin: 0 auto;
+}
+.inbox {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+}
+div {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
 }
