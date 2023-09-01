@@ -5,6 +5,8 @@
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
+    position: absolute;
+    z-index: -1;
 }
 body {
     margin: 0 auto;
@@ -20,4 +22,14 @@ div {
     display: flex;
     width: 100vw;
     min-height: 100vh;
+    justify-content: center;
+}
+button {
+    height: 20px;
+    width: 120px;
+    justify-content: center;
+}
+.randombtn {
+    height: 20px;
+    width: 120px;
 }
